@@ -1,18 +1,18 @@
-# ROBOT LAUNCHER v22 — Web公開準備版
+# ROBOT LAUNCHER v23 — 収益化準備版
 
-## ファイル
-- `index.html` ゲーム本体（画像埋め込み、広告配信なし）
-- `privacy.html` **未完成のプライバシー文書テンプレート**。公開前に運営情報等を必ず記入
-- `favicon.svg` / `site.webmanifest` ブラウザ表示用
-- `.nojekyll` GitHub Pages用の空ファイル
-- `robots.txt` 検索クローラ用の基本設定
-- `PUBLISH_GUIDE.md` GitHub Pages公開手順・公開前要件
-- `ADS_PLAN.md` 広告を開始する前の段取り
-- `QA_CHECKLIST.md` スマホ実機・人手テスト記録用
-- `RELEASE_STATUS.md` 検証済み/未検証の区別
+ブラウザゲーム本体と、公開時に必要な案内ページ・広告の申請計画をまとめました。
 
-## 現状
-**公開準備パッケージ**。サイトへのアップロード、スマホ実機テスト、運営者記入、広告承認は未実施。ブラウザでのテスト結果は `RELEASE_STATUS.md` を参照。
+## 公開用ファイル
+- `index.html`：ゲーム本体
+- `about.html`：ゲーム紹介・遊び方
+- `privacy.html`：現在のゲームのデータ利用と配信サービスの説明
+- `contact.html`：問い合わせの案内（GitHub Issuesが使える場合）
+- `favicon.svg`, `site.webmanifest`, `robots.txt`, `.nojekyll`：静的サイト用
 
-## 注意
-サイト公開に使用するのはZIPの中身です。GitHub Pagesの公開ブランチのルートに `index.html` があるように配置してください。プライバシー文書の未記入欄をそのままにしないでください。
+## 作業用文書
+- `UPLOAD_GUIDE.md`：GitHub Pages更新手順
+- `ADS_PLAN.md`：広告導入の流れ
+- `QA_REPORT.md`：検証結果
+- `RELEASE_STATUS.md`：実装済みと未確認事項
+
+**広告コードを挿入していません。収益化が完了したわけではありません。**

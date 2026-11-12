@@ -1,0 +1,10 @@
+{
+  "name": "ROBOT LAUNCHER",
+  "short_name": "ROBOT LAUNCHER",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#07182f",
+  "theme_color": "#07182f",
+  "description": "3体のロボットで要塞を攻略するブラウザゲーム"
+}
